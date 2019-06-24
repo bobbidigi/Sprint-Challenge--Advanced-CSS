@@ -161,9 +161,13 @@ p {
   margin: 0 auto;
 }
 .nav-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(to bottom, #b7deed85 0%, #71cdef95 50%, #21b5e287 51%, #b7deed86 100%);
 }
 .nav-container a {
   text-decoration: none;
@@ -204,6 +208,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 11rem;
 }
 .home .intro img {
   width: 100%;
