@@ -42,7 +42,7 @@ styling for the mobile size first and setting break points as the screen gets la
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-It makes math easier. lol. 
+It makes math easier.
 1rem = 10px
 2.5rem = 25px 
 
@@ -71,9 +71,9 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [X ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X ] Add your project manager as a reviewer on the pull-request
+- [X ] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
@@ -90,7 +90,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [X ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
