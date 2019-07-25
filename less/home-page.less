@@ -1,8 +1,11 @@
 // Home Content
 
 .home {
-
+  margin-top: 11rem;
   .intro {
+    img{
+      width: 100%;
+    }
 
     h2 {
       padding: 15px;
@@ -19,11 +22,25 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @mobile {
+      .flex(column);
+    }
+    @media @mobile {
+      .sky,
+      .launch {
+        display: none;
+      }
+    }
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      @media @mobile {
+        width: calc(100% - 5%);
+      }
+      
+     
     }
   }
 
@@ -46,7 +63,17 @@
     display: flex;
     justify-content: center;
 
+    @media @mobile{
+      flex-direction: column-reverse;
+      padding: 1.5rem;
+      margin-top: 0;
+    }
+
     .walk-text {
+      @media @mobile{
+        width: 100%;
+        margin-top: 3rem;
+      }
       width: 50%;
 
       h3 {
@@ -58,6 +85,15 @@
       }
 
       .btn {
+        .button(100px, navy, #fff);
+
+        @media @mobile{
+          width: 100%;
+          padding: 2rem;
+        }
+      }
+      .btn:hover{
+        .hover(#fff, navy);
       }
     }
 
@@ -65,6 +101,11 @@
       width: 46%;
       margin-left: 4%;
       
+      @media @mobile{
+        width: 100%;
+        margin-left: 0;
+      }
+
       img {
         width: 100%;
         height: auto;
